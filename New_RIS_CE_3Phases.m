@@ -68,7 +68,7 @@ RIS_range=4:3:16; % 'RIS'
 
 channel = Channel(M,N_columns,N_rows,K,d_user,sigma2db);
 channel = channel.setPropagation_loss(40);
-MC=MonteCarlo(20,channel); %doesnt work for 1
+MC=MonteCarlo(100,channel); %doesnt work for 1
 MC=MC.flagPlotAvgCH3P(0);
 MC=MC.flagPlotp3pCH3P(0);
 MC=MC.flagNoiseSNR(0);
