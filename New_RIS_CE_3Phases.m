@@ -82,4 +82,4 @@ MC=MC.fixP3symbols(0); %For this to work properly, M=N and T_3=a*(K-1) for some 
 MC=mcProcess(MC,distance_range,'all','Distance');
 MC.mcPlotCapacity();
 MC.mcPlot2();
-%MC.plot_pathloss();
+MC.plot_pathloss();
